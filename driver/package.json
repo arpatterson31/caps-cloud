@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.906.0",
-    "sqs-consumer": "^5.5.0"
+    "sqs-consumer": "^5.5.0",
+    "sqs-producer": "^2.1.0",
+    "uuid": "^3.3.2"
   }
 }
