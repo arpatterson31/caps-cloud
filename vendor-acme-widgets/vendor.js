@@ -19,7 +19,8 @@ const order = {
 const payload = {
   TopicArn: topic,
   Message: JSON.stringify(order),
-  MessageDeduplicationId:faker.datatype.uuid()
+  MessageGroupId: '1234',
+  MessageDeduplicationId: faker.datatype.uuid()
 };
 
 setInterval(() => {

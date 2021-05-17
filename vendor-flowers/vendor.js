@@ -19,6 +19,7 @@ const order = {
 const payload = {
   TopicArn: topic,
   Message: JSON.stringify(order),
+  MessageGroupId: '5678',
   MessageDeduplicationId:faker.datatype.uuid()
 };
 

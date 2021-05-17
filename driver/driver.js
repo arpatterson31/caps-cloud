@@ -22,7 +22,7 @@ const app = Consumer.create({
         body: JSON.stringify(order)
       });
 
-      console.log(`${order.orderId} delievered`);
+      console.log(`${order.orderId} delivered`);
     }, 5000)
   },
   pollingWaitTimeMs: 5000
